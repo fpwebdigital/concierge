@@ -1,0 +1,200 @@
+/*
+Você pode adicionar seu próprio CSS aqui.
+
+Clique no ícone de ajuda acima para saber mais.
+*/
+
+@font-face {
+    font-family: 'antipastoextrabold';
+    src: url(../fonts/antipasto-extraboldtrial-webfont.woff2) format('woff2'),
+    url(../fonts/antipasto-extraboldtrial-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'antipastoextralight';
+    src: url(../fontsantipasto-extralighttrial-webfont.woff2) format('woff2'),
+    url(../fonts/antipasto-extralighttrial-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'antipastoregular';
+    src: url(../fonts/antipasto-regulartrial-webfont.woff2) format('woff2'),
+    url(../fonts/antipasto-regulartrial-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dolce_vita_heavyafewXpounds';
+    src: url(../fonts/dolce_vita_heavy_bold-webfont.woff2) format('woff2'),
+    url(../fonts/dolce_vita_heavy_bold-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dolce_vita_lightsuper_light';
+    src: url(../fonts/dolce_vita_light-webfont.woff2) format('woff2'),
+    url(../fonts/dolce_vita_light-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+.form-cadastro.clearfix {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.modal-dialog {
+    max-width: 650px;
+}
+input.wpcf7-form-control.wpcf7-submit.btn.btn-reserva {
+    width: 100%;
+    background: #3b9eb5;
+    color: #fff;
+    margin-top: 50px;
+    line-height: 50px;
+}
+.box-modal:hover h2{color:#FFF;font-weight: normal;}
+input.wpcf7-form-control.wpcf7-submit.btn.btn-reserva:hover {
+    background: #2f8194;
+}
+.modal-content .col-sm-12.text-center {
+    height: 100px;
+    padding-top: 20px;
+    color: #fff;
+    padding-top: 50px;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'ciclefina';
+}
+h2.modal-title:after {
+    display: block;
+    content: '';
+    width: 81px;
+    height: 2px;
+    background: #fff;
+    margin: 0 auto;
+}
+.modal-content {
+    max-width: 730px;
+    margin: 0 auto;
+}
+@media(max-width:767px){
+    .home footer#footer {
+        position: relative;
+    }
+    .desck002 img {
+        min-width: 723px;
+    }
+
+    .desck002 {
+        width: 100%;
+        overflow: hidden;
+    }
+}
+a.btn.btn-download.btn-radius{
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a.btn.btn-download.btn-radius span{
+    padding: 0 0 0 5px;
+    font-size: 15px;
+}
+
+/*Inicio - Real Madrid Campus Experience*/
+.list-square li {
+    list-style: square;
+}
+.destaque {
+    font-size: 22px;
+}
+
+.destaque a {
+    color: inherit;
+}
+
+.destaque-preco {
+    font-size: 68px;
+    line-height: 40px;
+}
+
+.destaque-preco sup {
+    font-size: 30px;
+    top: -0.8em;
+}
+
+/*Fim - Real Madrid Campus Experience*/
+
+
+/*===== Página Portugal =====*/
+.bg-content-portugal{
+    width: 100%;
+    height: auto;
+    position: relative;
+    -webkit-box-shadow: 0px 2px 35px 1px rgba(0,0,0,0.59);
+    -moz-box-shadow: 0px 2px 35px 1px rgba(0,0,0,0.59);
+    box-shadow: 0px 2px 35px 1px rgba(0,0,0,0.59);
+}
+.tit-portugal{
+    font-family: 'dolce_vita_lightsuper_light', Sans-serif;
+    color: #bd1646;
+    font-size: 40px;
+}
+
+.conteudo-padrao{
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    position: relative;
+}
+
+.txt-principal{
+    font-family: 'antipastoregular', Sans-serif;
+    color: #696467;
+    font-size: 24px;
+    text-align: left;
+    line-height: normal
+}
+
+.tarja-principal{
+    background-color: #601618;
+    width: 100%;
+    height: 73px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.tarja-sub-bike{
+    background-color: #3a532f;
+    width: 90%;
+    height: 70px;
+    position: relative;
+    margin-bottom: 10px;
+    font-family: 'dolce_vita_lightsuper_light', Sans-serif;
+    color: #ffffff;
+    font-size: 55px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+.cont-bike {
+    width: 92%;
+    min-height: 330px;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+}
+

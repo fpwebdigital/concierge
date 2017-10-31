@@ -21,7 +21,7 @@
 
 
 #Backup do site
-.backup-site
+backup-site
 
 # Gradle:
 .idea/**/gradle.xml
