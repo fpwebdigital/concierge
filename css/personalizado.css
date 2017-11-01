@@ -190,6 +190,31 @@ a.btn.btn-download.btn-radius span{
     margin: auto;
     margin-top: 50px;
 }
+.tarja-sub-eno{
+    background-color: #601618;
+    width: 90%;
+    height: 70px;
+    position: relative;
+    margin-bottom: 10px;
+    font-family: 'dolce_vita_lightsuper_light', Sans-serif;
+    color: #ffffff;
+    font-size: 55px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+.eno-md{
+    font-size: 35px;
+}
+
+.tarja-arabesco{
+    width: 90%;
+    height: 41px;
+    position: relative;
+    margin-bottom: 10px;
+    margin: auto;
+    margin-top: 40px;
+}
 .cont-bike {
     width: 92%;
     min-height: 330px;
@@ -197,4 +222,21 @@ a.btn.btn-download.btn-radius span{
     margin: auto;
     margin-top: 20px;
 }
+
+#bike1:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/10/s1x.jpg');  cursor: pointer;}
+#bike2:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s2x.jpg');  cursor: pointer;}
+#bike3:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s3x.jpg');  cursor: pointer;}
+#bike4:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s4x.jpg');  cursor: pointer;}
+#bike5:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s5x.jpg');  cursor: pointer;}
+#bike6:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s6x.jpg');  cursor: pointer;}
+
+#eno1:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s7x.jpg');  cursor: pointer;}
+#eno2:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s8x.jpg');  cursor: pointer;}
+#eno3:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s9x.jpg');  cursor: pointer;}
+#eno4:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s10x.jpg');  cursor: pointer;}
+#eno5:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s11x.jpg');  cursor: pointer;}
+#eno6:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s12x.jpg');  cursor: pointer;}
+#eno7:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s13x.jpg');  cursor: pointer;}
+#eno8:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s14x.jpg');  cursor: pointer;}
+#eno9:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s15x.jpg');  cursor: pointer;}
 
