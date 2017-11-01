@@ -169,6 +169,14 @@ a.btn.btn-download.btn-radius span{
     line-height: normal
 }
 
+.txt-rodape{
+    font-family: 'antipastoregular', Sans-serif;
+    color: #696467;
+    font-size: 24px;
+    text-align: center;
+    line-height: normal
+}
+
 .tarja-principal{
     background-color: #601618;
     width: 100%;
@@ -180,28 +188,41 @@ a.btn.btn-download.btn-radius span{
 .tarja-sub-bike{
     background-color: #3a532f;
     width: 90%;
-    height: 70px;
+    height: auto;
     position: relative;
     margin-bottom: 10px;
     font-family: 'dolce_vita_lightsuper_light', Sans-serif;
     color: #ffffff;
-    font-size: 55px;
+    font-size: 45px;
     text-align: center;
     margin: auto;
-    margin-top: 50px;
+    padding: 20px;
 }
 .tarja-sub-eno{
     background-color: #601618;
     width: 90%;
-    height: 70px;
+    height: auto;
     position: relative;
     margin-bottom: 10px;
     font-family: 'dolce_vita_lightsuper_light', Sans-serif;
     color: #ffffff;
-    font-size: 55px;
+    font-size: 45px;
     text-align: center;
     margin: auto;
-    margin-top: 50px;
+    padding: 20px;
+}
+.tarja-sub-roteiros {
+    background-color: #674a28;
+    width: 90%;
+    height: auto;
+    position: relative;
+    margin-bottom: 10px;
+    font-family: 'dolce_vita_lightsuper_light', Sans-serif;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
 }
 .eno-md{
     font-size: 35px;
@@ -209,11 +230,11 @@ a.btn.btn-download.btn-radius span{
 
 .tarja-arabesco{
     width: 90%;
-    height: 41px;
+    height: auto;
     position: relative;
-    margin-bottom: 10px;
+    bottom: 16px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 33px
 }
 .cont-bike {
     width: 92%;
@@ -234,9 +255,109 @@ a.btn.btn-download.btn-radius span{
 #eno2:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s8x.jpg');  cursor: pointer;}
 #eno3:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s9x.jpg');  cursor: pointer;}
 #eno4:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s10x.jpg');  cursor: pointer;}
-#eno5:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s11x.jpg');  cursor: pointer;}
+#eno5:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s11.jpg');  cursor: pointer;}
 #eno6:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s12x.jpg');  cursor: pointer;}
 #eno7:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s13x.jpg');  cursor: pointer;}
 #eno8:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s14x.jpg');  cursor: pointer;}
 #eno9:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s15x.jpg');  cursor: pointer;}
+
+#rot1:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s16x.jpg');  cursor: pointer;}
+#rot2:hover {content: url('http://conciergedeviagem.com.br/wp-content/uploads/2017/11/s17x.jpg');  cursor: pointer;}
+
+
+/**
+ * Horizontal Type Line Behind Text
+ * Inspired by this discussion @ CSS-Tricks: https://css-tricks.com/forums/topic/css-trick-for-a-horizontal-type-line-behind-text/#post-151970
+ * Available on jsFiddle: http://jsfiddle.net/ericrasch/jAXXA/
+ * Available on Dabblet: http://dabblet.com/gist/2045198
+ * Available on GitHub Gist: https://gist.github.com/2045198
+ */
+
+h2 {
+    font: 33px sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2.background {
+    position: relative;
+    z-index: 1;
+
+&:before {
+     border-top: 2px solid #dfdfdf;
+     content:"";
+     margin: 0 auto; /* this centers the line to the full width specified */
+     position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+     top: 50%; left: 0; right: 0; bottom: 0;
+     width: 95%;
+     z-index: -1;
+ }
+
+span {
+    /* to hide the lines from behind the text, you have to set the background color the same as the container */
+    background: #fff;
+    padding: 0 15px;
+}
+}
+
+h2.double:before {
+    /* this is just to undo the :before styling from above */
+    border-top: none;
+}
+
+h2.double:after {
+    border-bottom: 1px solid blue;
+    -webkit-box-shadow: 0 1px 0 0 red;
+    -moz-box-shadow: 0 1px 0 0 red;
+    box-shadow: 0 1px 0 0 red;
+    content: "";
+    margin: 0 auto; /* this centers the line to the full width specified */
+    position: absolute;
+    top: 45%; left: 0; right: 0;
+    width: 95%;
+    z-index: -1;
+}
+
+h2.no-background {
+    position: relative;
+    overflow: hidden;
+
+span {
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+    *display: inline;
+    *vertical-align: auto;
+    position: relative;
+    padding: 0 20px;
+
+&:before, &:after {
+               content: '';
+               display: block;
+               width: 1000px;
+               position: absolute;
+               top: 0.73em;
+               border-top: 1px solid red;
+           }
+
+&:before { right: 100%; }
+&:after { left: 100%; }
+}
+}
+
+h2.no-span {
+    display: table;
+    white-space: nowrap;
+&:before, &:after {
+               border-top: 1px solid green;
+               content: '';
+               display: table-cell;
+               position: relative;
+               top: 0.5em;
+               width: 45%;
+           }
+&:before { right: 1.5%; }
+&:after { left: 1.5%; }
+}
 
