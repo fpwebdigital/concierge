@@ -69,7 +69,7 @@ ul.bxslider.clearfix img {
 <style>
 
 .redes-sociais {
-    width: 154px!important; 
+    width: 156px!important;
  
 } 
  
