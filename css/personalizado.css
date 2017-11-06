@@ -319,13 +319,14 @@ a.btn.btn-download.btn-radius span{
 /*======================== BLODO DE PREÇO ==================*/
 .blk-preco {
     width: 100%;
-    min-height: 370px;
+    min-height: 362px;
     position: relative;
     background-color: #3a532f;
     padding: 10px;
     font-family: 'Didact Gothic', sans-serif;
     text-align: center;
     color: #ffffff;
+    margin-bottom: 30px;
 }
 .blk-preco p {
     color: #ffffff;
@@ -449,14 +450,15 @@ a.btn.btn-download.btn-radius span{
 .with-nav-tabs.panel-default .nav-tabs > .open > a:focus,
 .with-nav-tabs.panel-default .nav-tabs > li > a:hover,
 .with-nav-tabs.panel-default .nav-tabs > li > a:focus {
-    color: #3a532f;
+    color: #3a532f !important;
     background-color: #d9d7db;
     border-color: transparent;
 }
 .with-nav-tabs.panel-default .nav-tabs > li.active > a,
 .with-nav-tabs.panel-default .nav-tabs > li.active > a:hover,
 .with-nav-tabs.panel-default .nav-tabs > li.active > a:focus {
-    color: #3a532f;
+    color: #3a532f !important;
+    font-weight: 700;
     background-color: #d9d7db;
     border-color: #ddd;
     border-bottom-color: transparent;
@@ -479,6 +481,19 @@ a.btn.btn-download.btn-radius span{
     background-color: #d9d7db;
 }
 
+.tarja-verde{
+    background-color: #3a532f;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    margin-bottom: 20px;
+}
 
+.bt-reserva{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    margin-bottom: 20px;
+}
 
 
