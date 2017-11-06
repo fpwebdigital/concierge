@@ -142,7 +142,7 @@ a.btn.btn-download.btn-radius span{
 
 
 /*===== Página Portugal =====*/
-.bg-content-portugal{
+.bg-content-portugal-novo{
     width: 100%;
     height: auto;
     position: relative;
@@ -150,6 +150,7 @@ a.btn.btn-download.btn-radius span{
     -moz-box-shadow: 0px 2px 35px 1px rgba(0,0,0,0.59);
     box-shadow: 0px 2px 35px 1px rgba(0,0,0,0.59);
     margin-top: 60px;
+    background-color: #ffffff !important;
 }
 .tit-portugal{
     font-family: 'dolce_vita_lightsuper_light', Sans-serif;
@@ -336,7 +337,7 @@ a.btn.btn-download.btn-radius span{
     position: relative;
     font-family: 'dolce_vita_lightsuper_light', Sans-serif;
     color: #ffffff;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
 }
 .branco {
@@ -420,8 +421,8 @@ a.btn.btn-download.btn-radius span{
 }
 
 .panel {
-    background-color: #d9d7db;
-    border: 1px solid #d9d7db;
+    background-color: #ffffff;;
+    border: 1px solid #ffffff;
 }
 
 .panel-default>.panel-heading {
@@ -451,7 +452,7 @@ a.btn.btn-download.btn-radius span{
 .with-nav-tabs.panel-default .nav-tabs > li > a:hover,
 .with-nav-tabs.panel-default .nav-tabs > li > a:focus {
     color: #3a532f !important;
-    background-color: #d9d7db;
+    background-color: #ffffff;
     border-color: transparent;
 }
 .with-nav-tabs.panel-default .nav-tabs > li.active > a,
@@ -459,26 +460,26 @@ a.btn.btn-download.btn-radius span{
 .with-nav-tabs.panel-default .nav-tabs > li.active > a:focus {
     color: #3a532f !important;
     font-weight: 700;
-    background-color: #d9d7db;
-    border-color: #ddd;
+    background-color: #ffffff;
+    border-color: #ffffff;
     border-bottom-color: transparent;
 }
 .with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu {
-    background-color: #d9d7db;
-    border-color: #d9d7db;
+    background-color: #ffffff;
+    border-color: #ffffff;
 }
 .with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a {
     color: #3a532f;
 }
 .with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
 .with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
-    background-color: #d9d7db;
+    background-color: #ffffff;
 }
 .with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > .active > a,
 .with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > .active > a:hover,
 .with-nav-tabs.panel-default .nav-tabs > li.dropdown .dropdown-menu > .active > a:focus {
     color: #3a532f;
-    background-color: #d9d7db;
+    background-color:#ffffff;
 }
 
 .tarja-verde{
@@ -487,6 +488,9 @@ a.btn.btn-download.btn-radius span{
     height: 40px;
     position: relative;
     margin-bottom: 20px;
+    background-image: url("http://conciergedeviagem.com.br/wp-content/uploads/2017/11/arabesco4.png");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .bt-reserva{
