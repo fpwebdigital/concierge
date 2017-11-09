@@ -317,19 +317,64 @@ a.btn.btn-download.btn-radius span{
     left: 0;
 }
 
+
+.tit-interno-eno {
+    position: relative;
+    font-family: 'dolce_vita_lightsuper_light', Sans-serif;
+    color: #601618;
+    font-size: 45px;
+    text-align: center;
+}
+
+
+.tit-interno-eno span {
+    background: #fff;
+    padding: 0 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.tit-interno-eno:before {
+    background: #601618;
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.tit-interno-eno:before {
+    left: 0;
+}
+
 /*======================== BLODO DE PREÇO ==================*/
 .blk-preco {
+     width: 100%;
+     min-height: 362px;
+     position: relative;
+     background-color: #3a532f;
+     padding: 10px;
+     font-family: 'Didact Gothic', sans-serif;
+     text-align: center;
+     color: #ffffff;
+     margin-bottom: 30px;
+ }
+.blk-preco p {
+    color: #ffffff;
+}
+
+.blk-preco-eno {
     width: 100%;
     min-height: 362px;
     position: relative;
-    background-color: #3a532f;
+    background-color: #601618;
     padding: 10px;
     font-family: 'Didact Gothic', sans-serif;
     text-align: center;
     color: #ffffff;
     margin-bottom: 30px;
 }
-.blk-preco p {
+.blk-preco-eno p {
     color: #ffffff;
 }
 
@@ -425,10 +470,7 @@ a.btn.btn-download.btn-radius span{
     border: 1px solid #ffffff;
 }
 
-.panel-default>.panel-heading {
-    background-image: none !important;
-    background-color: #3a532f !important;
-}
+
 
 .panel.with-nav-tabs .panel-heading{
     padding: 5px 5px 0 5px !important;
@@ -441,6 +483,12 @@ a.btn.btn-download.btn-radius span{
 }
 /********************************************************************/
 /*** PANEL DEFAULT ***/
+
+.panel-default>.panel-heading {
+    background-image: none !important;
+    background-color: #3a532f !important;
+}
+
 .with-nav-tabs.panel-default .nav-tabs > li > a,
 .with-nav-tabs.panel-default .nav-tabs > li > a:hover,
 .with-nav-tabs.panel-default .nav-tabs > li > a:focus {
@@ -482,6 +530,55 @@ a.btn.btn-download.btn-radius span{
     background-color:#ffffff;
 }
 
+/********************************************************************/
+/*** PANEL ENO ***/
+
+.panel-eno>.panel-heading {
+    background-image: none !important;
+    background-color: #601618 !important;
+}
+
+.with-nav-tabs.panel-eno .nav-tabs > li > a,
+.with-nav-tabs.panel-eno .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-eno .nav-tabs > li > a:focus {
+    color: #ffffff;
+}
+.with-nav-tabs.panel-eno .nav-tabs > .open > a,
+.with-nav-tabs.panel-eno .nav-tabs > .open > a:hover,
+.with-nav-tabs.panel-eno .nav-tabs > .open > a:focus,
+.with-nav-tabs.panel-eno .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-eno .nav-tabs > li > a:focus {
+    color: #601618 !important;
+    background-color: #ffffff;
+    border-color: transparent;
+}
+.with-nav-tabs.panel-eno .nav-tabs > li.active > a,
+.with-nav-tabs.panel-eno .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-eno.nav-tabs > li.active > a:focus {
+    color: #601618 !important;
+    font-weight: 700;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-bottom-color: transparent;
+}
+.with-nav-tabs.panel-eno .nav-tabs > li.dropdown .dropdown-menu {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.with-nav-tabs.panel-eno .nav-tabs > li.dropdown .dropdown-menu > li > a {
+    color: #601618;
+}
+.with-nav-tabs.panel-eno .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
+.with-nav-tabs.panel-eno .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
+    background-color: #ffffff;
+}
+.with-nav-tabs.panel-eno .nav-tabs > li.dropdown .dropdown-menu > .active > a,
+.with-nav-tabs.panel-eno .nav-tabs > li.dropdown .dropdown-menu > .active > a:hover,
+.with-nav-tabs.panel-eno .nav-tabs > li.dropdown .dropdown-menu > .active > a:focus {
+    color: #601618;
+    background-color:#ffffff;
+}
+
 .tarja-verde{
     background-color: #3a532f;
     width: 100%;
@@ -489,6 +586,16 @@ a.btn.btn-download.btn-radius span{
     position: relative;
     margin-bottom: 20px;
     background-image: url("http://conciergedeviagem.com.br/wp-content/uploads/2017/11/arabesco4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tarja-eno{
+    background-color: #601618;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    margin-bottom: 20px;
+    background-image: url("http://conciergedeviagem.com.br/wp-content/uploads/2017/11/arabesco-eno.png");
     background-position: center;
     background-repeat: no-repeat;
 }
