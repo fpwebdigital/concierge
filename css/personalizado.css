@@ -347,6 +347,37 @@ a.btn.btn-download.btn-radius span{
     left: 0;
 }
 
+
+
+.tit-interno-cultural {
+    position: relative;
+    font-family: 'dolce_vita_lightsuper_light', Sans-serif;
+    color: #674a28;
+    font-size: 45px;
+    text-align: center;
+}
+
+
+.tit-interno-cultural span {
+    background: #fff;
+    padding: 0 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.tit-interno-cultural:before {
+    background: #674a28;
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.tit-interno-cultural:before {
+    left: 0;
+}
+
 /*======================== BLODO DE PREÇO ==================*/
 .blk-preco {
      width: 100%;
@@ -378,6 +409,21 @@ a.btn.btn-download.btn-radius span{
     color: #ffffff;
 }
 
+.blk-preco-cultural {
+    width: 100%;
+    min-height: 362px;
+    position: relative;
+    background-color: #674a28;
+    padding: 10px;
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.blk-preco-cultural p {
+    color: #ffffff;
+}
+
 .tit-preco {
     position: relative;
     font-family: 'dolce_vita_lightsuper_light', Sans-serif;
@@ -404,6 +450,10 @@ a.btn.btn-download.btn-radius span{
 }
 .txt-valor-saidas{
     margin-top: 70px;
+    font-size: 11px;
+}
+.txt-valor-saidas2{
+    margin-top: 35px;
     font-size: 11px;
 }
 .valor1{
@@ -587,6 +637,56 @@ a.btn.btn-download.btn-radius span{
     background-color:#ffffff;
 }
 
+/********************************************************************/
+/*** PANEL ROTEIROS CULTURAIS ***/
+
+.panel-cultural>.panel-heading {
+    background-image: none !important;
+    background-color: #674a28 !important;
+}
+
+.with-nav-tabs.panel-cultural .nav-tabs > li > a,
+.with-nav-tabs.panel-cultural .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-cultural .nav-tabs > li > a:focus {
+    color: #ffffff;
+}
+.with-nav-tabs.panel-cultural .nav-tabs > .open > a,
+.with-nav-tabs.panel-cultural .nav-tabs > .open > a:hover,
+.with-nav-tabs.panel-cultural .nav-tabs > .open > a:focus,
+.with-nav-tabs.panel-cultural .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-cultural .nav-tabs > li > a:focus {
+    color: #674a28 !important;
+    background-color: #ffffff;
+    border-color: transparent;
+}
+.with-nav-tabs.panel-cultural .nav-tabs > li.active > a,
+.with-nav-tabs.panel-cultural .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-cultural.nav-tabs > li.active > a:focus {
+    color: #674a28 !important;
+    font-weight: 700;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-bottom-color: transparent;
+}
+.with-nav-tabs.panel-cultural .nav-tabs > li.dropdown .dropdown-menu {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.with-nav-tabs.panel-cultural .nav-tabs > li.dropdown .dropdown-menu > li > a {
+    color: #674a28;
+}
+.with-nav-tabs.panel-eno .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
+.with-nav-tabs.panel-eno .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
+    background-color: #ffffff;
+}
+.with-nav-tabs.panel-cultural .nav-tabs > li.dropdown .dropdown-menu > .active > a,
+.with-nav-tabs.panel-cultural .nav-tabs > li.dropdown .dropdown-menu > .active > a:hover,
+.with-nav-tabs.panel-cultural .nav-tabs > li.dropdown .dropdown-menu > .active > a:focus {
+    color: #674a28;
+    background-color:#ffffff;
+}
+
+
 .tarja-verde{
     background-color: #3a532f;
     width: 100%;
@@ -604,6 +704,17 @@ a.btn.btn-download.btn-radius span{
     position: relative;
     margin-bottom: 20px;
     background-image: url("http://conciergedeviagem.com.br/wp-content/uploads/2017/11/arabesco-eno.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tarja-cultural{
+    background-color: #674a28;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    margin-bottom: 20px;
+    background-image: url("http://conciergedeviagem.com.br/wp-content/uploads/2017/11/arabesco-cultural.png");
     background-position: center;
     background-repeat: no-repeat;
 }
