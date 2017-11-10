@@ -402,8 +402,16 @@ a.btn.btn-download.btn-radius span{
 .txt-valor-obs{
     font-size: 11px;
 }
+.txt-valor-saidas{
+    margin-top: 70px;
+    font-size: 11px;
+}
 .valor1{
     font-size: 45px;
+}
+.sem-valor{
+    font-size: 30px;
+    line-height: 50px;
 }
 .valor2{
     font-size: 20px;
